@@ -1,6 +1,6 @@
 # DRIFT-GUARD: Self-Healing CI-CD Pipeline
 
-A strict "Code-as-Law" GitOps pipeline and automated remediation engine built for CMP6200[cite: 1]. Designed to eliminate unauthorized cloud infrastructure drift (ClickOps) through automated state scanning, multi-framework security gates, and deterministic state synchronization.
+A strict "Code-as-Law" GitOps pipeline and automated remediation engine. Designed to eliminate unauthorized cloud infrastructure drift (ClickOps) through automated state scanning, multi-framework security gates, and deterministic state synchronization.
 
 ## Key Features
 * **Automated Drift Detection & Code Generation**: Parses live Terraform state files via a custom Python engine (`drift_guard.py`) to catch manual environment changes and dynamically generate corresponding Terraform configuration updates.
